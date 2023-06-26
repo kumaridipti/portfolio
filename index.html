@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dipti Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="java.js"></script>
+   
+
+    <script type="text/javascript">
+		function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft="250px";
+		}
+
+		function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft="0";
+		}
+    </script>
+
+	</head>
+<body>
+  <div id="mySidenav" class="sidenav nav ml-auto" onmouseleave="closeNav()">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="#" onclick="home(),closeNav()">Home</a>
+	<a href="#" onclick="about(), closeNav()">About Me</a>
+	<a href="#" onclick="academics() ,closeNav()">Academics</a>
+	<a href="#" onclick="techskills() ,closeNav()">Tech-skills</a>
+	<a href="#" onclick="interskills() ,closeNav()">Inter-Skills</a>
+	<a href="#"onclick="certificates() ,closeNav()">Certificates</a>
+	<a href="#" onclick="contacts() ,closeNav()">Contact</a>
+  </div>
+<span style="font-size: 30px;cursor: pointer;color: black;" onmouseover="openNav()" onclick="openNav()">&#9776 Menu</span>
+<div id="main"> 
+	<div id="home" style="display: inline;">
+	<div class=" container-fluid pt-3">
+		<div class="row">
+			
+			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+				<div style="width:100%;margin-top: 7px;margin-top: 20%; font-weight: bold;">
+				<h2 style="font-weight: bold;padding-top:5% ;padding-left:25%;">Hi, </h2>
+				<h2 style="font-weight: bold;padding-left: 25%;"> I am <span style="color:darkblue;">Dipti Kumari</span></h2>
+				<h3 style="font-weight: bold;padding-left: 25%;"> MCA,  <span style="color:darkblue;">Patna Women's College</span></h3>
+				<h3 style="font-weight: bold;padding-left: 25%;">Web Developer, <span style="color:darkblue;">Web Designer</span></h3>
+				<button  onclick="contact()" style= "background-color: skyblue;width: auto; margin-left: 25%;"><a style="text-decoration: none;color: black;" href="#">Contact</a> </button>
+				<div id="contact" style="padding-left: 25%;display: none;">
+					<a href="mailto:dipti.kumari8336@gmail.com" target="_blank"><img src="logos/email.png" class="img-rounded img-responsive" style="width: 10%;height: 10%;display: inline-flex;" alt="Email"></a>
+					<a href="https://www.linkedin.com/in/dipti-kumari-a00797229/" target="_blank"><img src="logos/lin.png" class="img-rounded img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Linkedin"></a>
+					<a href="https://wa.me/+916206669795" target="_blank"><img src="logos/whats.png" class="img-rounded  img-responsive"style="width: 8%;height: 8%;display: inline-flex;" alt="Whatsapp"></a>
+					<a href="skype:+916206669795?chat" target="_blank"><img src="logos/skype.png"class="img-rounded  img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Skype"></a>
+					<a href="https://www.instagram.com/dipu_6_9/" target="_blank"><img src="logos/inst.png"class="img-rounded  img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Instagarm"></a>
+				</div>
+			    </div>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div  style="margin-bottom: 9px;">
+					<div style="width:100%;margin-top: 7px;">
+					<img src="dipti.png" class="img-circle img-responsive img-thumbnail" alt="Image" width="80%">
+				</div>
+			    </div>
+		    </div>
+		</div>
+	</div>
+</div>
+<div id="about" style="display:none;" >
+  <h2 style="font-size: 30px;margin-left: 10%;margin-right:5% ;margin-top: 8%;color: whitesmoke;"><b><u>About Me</u></b></h2>
+	<P style="margin-left:10% ;margin-top: 2%;font-size: 24px;font-weight: bold;
+	width: 70%; text-align:justify;">A well-organized, creative and goal-oriented post graduate possessing well communication, problem-solving and leadership skills with a flair to explore avenues in Computer applications while developing advanced projects with efficiency and quality.Willing to work in a challenging position with a growing organization, where I can utilize my technical and interpersonal skills to serve the organization and enhanced the same.</P>
+	</div>
+    <div id="Academics" class="overflow-auto" style="margin-left:3%;margin-right: 3%;padding-top: 2%;display: none;font-size:24px" >
+				<p style="margin-left: 45%;font-size:24px;color: whitesmoke;"><u><b>Academic Details</b></u></p>
+				<br>
+    <table class="table table-hover " style="margin-right: 3px;" >
+		<thead>
+		   <tr><th>Sr_no. </th><th>Course</th><th>Board/univerity</th><th>Passing_year</th><th>Percentage</th></tr>
+		</thead>
+		
+		<tbody>
+			<tr><td>1 </td><td>Matriculation</td><td>Brilliant Public School, CBSE, Sitamarhi</td><td style="text-align:center">2015</td><td style="text-align:center">95</td></tr>
+			<tr><td>2 </td><td>Intermediate(PCM)</td><td>Mk College, BSEB, Madhuban </td><td style="text-align:center">2017</td><td style="text-align:center">61</td></tr>
+			<tr><td>3 </td><td>BCA</td><td>Babasaheb Bhimrao Ambedkar Bihar Univerity, Muzaffarpur</td><td style="text-align:center">2020</td><td style="text-align:center">73</td></tr>
+			<tr><td>4 </td><td>MCA</td><td>Patna Women's College, Patna University, Patna</td><td style="text-align:center">2023</td><td style="text-align:center">80</td></tr>
+		</tbody>
+    </table>
+</div>
+
+    <div id="techskills"  style="font-size:24px;display: none; width: 70%;margin-left: 10%;">
+    	<table class=" table table-hover ">
+    		<thead><tr><th>&nbsp</th><th style="color:whitesmoke;"><u><b>Technical skills</b> </u></th><th>&nbsp</th></tr></thead>
+    		<tbody>
+    		
+    		<tr><td>HTML</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td>
+    		<tr><td>CSS</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>
+    		<tr><td>JavScript</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>
+			<tr><td>Bootstrap</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>
+			<tr><td>PHP</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>
+			<tr><td>MySQL</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span><span class="fa fa-star "></span></td>    	
+    		<tr><td>Microsoft office</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star "></span></td>
+    		
+    	</tbody>
+    	</table>
+    </div>
+    <div id="interskills" style="width:80%;padding-left:20%;padding-top: 5%;display: none;font-size:24px">
+    	<table class=" table table-hover ">
+    		<thead><tr><th>&nbsp</th><th style="color:whitesmoke"><u><b>Interpersonal skills</b></u> </th><th>&nbsp</th></tr></thead>
+    		<tbody>
+    		<tr><td>Hardworking</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star checked "></span></td></tr>
+    		<tr><td>Fast Learner</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td></tr>
+    		<tr><td>Desicion Making</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star "></span></td>
+    		<tr><td>Sincere</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span></td>
+    		<tr><td>Punctual of time</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></td>
+    		<tr><td>Reliable & Efficient</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></td>
+    		<tr><td>Team Leadership</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked "></span><span class="fa fa-star "></span></td>
+    		<tr><td>Management and co-ordination</td><td> </td><td><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star  "></span></td>
+    		</tr>
+    	</tbody>
+    	</table>
+    </div>
+    <div id="Certificates" style="width:80%;padding-left:20%;padding-top: 5%;display: none;font-size:24px">
+    	<table class="table table-hover">
+    		<p style="color:whitesmoke";><U><b>Courses</b></U></p>
+    		<thead>
+    			<tr><th>Sr_no.</th><th >Course_Name</th><th>Course Offered_by</th><th>Weblink</th></tr>
+    		</thead>
+    		<tbody>
+    			<tr><td>1</td><td>Developing Soft Skills and Personality</td><td>IIT Kanpur</td><td><a href="https://drive.google.com/file/d/1DhzGTMkwFfEI3n6sd0ofMRk2ZIXUs2So/view?usp=drive_link" target="_blank">Credential</a></td></tr>
+
+    			<tr><td>2</td><td>Web Design and Development</td><td>Semsols Technologies Pvt. Ltd.</td><td><a href="https://drive.google.com/file/d/1c-ToZlzE6quaLVZ8jLI-DbvtjQghXQ6s/view?usp=drive_link" target="_blank">Credential</a></td></tr>
+
+    			<tr><td>3</td><td>Web Development Training</td><td>Internshala</td><td><a href="https://drive.google.com/file/d/1TwERRdRqQu8tv_OR5Gzr4-9g8yXkxG9k/view?usp=drive_link" target="_blank">Credential</a></td></tr>
+
+    			<tr><td>4</td><td>Internship & Job Preparation Training</td><td>Internshala</td><td><a href="https://drive.google.com/file/d/1Dpobh79a6SpTJg4jBNEA5QFkdkt5yubJ/view?usp=drive_link" target="_blank">Credential</a></td></tr>
+
+    			<tr><td>5</td><td>Dynamic Web Portal Design and Development</td><td>Polytropic Services Pvt. Ltd</td><td><a href="https://drive.google.com/file/d/10-VB-iWoLEo2xCDjWvq-E2ae6hEAPmGm/view?usp=drive_link" target="_blank">Credential</a></td></tr>    			
+    		</tbody>
+    	</table>
+    </div>
+    <div id="contacts" style="display:none">
+    	
+    	<div class="details" style="font-size:24px;margin-top:10% ;margin-left: 10%;">
+    		<p style="font-size: 28px;color: whitesmoke;"><u><b>Contact</b></u></p>
+    		<P>Email:-<a href="mailto:dipti.kumari8336@gmail.com">dipti.kumari8336@gmail.com</a></P>
+    		<P>Phone No:- <a href="tel:+916206669795">+916206669795</a></P>
+    		<p>Website:-<a href="#">example.com</a></p>
+    		<P>Address:- <span>Mela Road, Sitamarhi, Bihar</span></P>
+    		<p>Pin Code:- 843302</p>
+    	</div>
+    	<div class="links" style="margin-left:10%"> 
+			<a href="mailto:dipti.kumari8336@gmail.com" target="_blank"><img src="logos/email.png" class="img-rounded img-responsive" style="width: 10%;height: 10%;display: inline-flex;" alt="Email"></a>
+			<a href="https://www.linkedin.com/in/dipti-kumari-a00797229/" target="_blank"><img src="logos/lin.png" class="img-rounded img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Linkedin"></a>
+			<a href="https://wa.me/+916206669795" target="_blank"><img src="logos/whats.png" class="img-rounded  img-responsive"style="width: 8%;height: 8%;display: inline-flex;" alt="Whatsapp"></a>
+			<a href="skype:+916206669795?chat" target="_blank"><img src="logos/skype.png"class="img-rounded  img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Skype"></a>
+			<a href="https://www.instagram.com/dipu_6_9/" target="_blank"><img src="logos/inst.png"class="img-rounded  img-responsive" style="width: 8%;height: 8%;display: inline-flex;" alt="Instagarm"></a>
+		</div>
+    </div>
+</div>
+</body>
+</html>
